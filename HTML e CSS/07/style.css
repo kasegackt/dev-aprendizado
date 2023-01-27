@@ -1,7 +1,5 @@
-@charset "UTF-8";
-
 body {
-    background-color: rgb(165, 206, 43);
+    background-color: rgb(36, 102, 183);
     font: normal 20pt Verdana;
 }
 
@@ -11,7 +9,7 @@ header {
 }
 
 section {
-    background-color: rgb(211, 209, 209);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
@@ -19,18 +17,12 @@ section {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.783);
 }
 
+select#flista {
+    width: 150px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
-}
-
-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-div {
-    text-align: center;
-    padding: 8px;
 }
